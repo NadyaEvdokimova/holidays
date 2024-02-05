@@ -5,6 +5,7 @@ import axios from "axios";
 const app = express();
 const port = 3000;
 const API_HOLIDAY_URL = "https://holidays.abstractapi.com/v1/";
+const API_KEY = process.env.API_KEY;
 
 
 app.use(express.static("public"));
