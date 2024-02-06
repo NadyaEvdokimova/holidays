@@ -186,3 +186,108 @@ input[type=submit]:hover {
 span {
     color: rgb(241, 90, 35);
 }
+
+
+@media screen and (max-width: 799px) {
+    .arrow {
+        width: 15%;
+    }
+
+    .form {
+        display: block;
+        min-width: 180px;
+        margin-left: 10px;
+    }
+
+    svg {
+        width: 50%;
+    }
+
+    input[type=text], select, textarea {
+        font-size: 1rem;
+    }
+    
+    input[type=submit] {
+        font-size: 1rem;
+    }
+
+    .text {
+        min-width: 200px;
+    }
+
+    .start {
+        font-size: 4rem;
+    } 
+
+    .container {
+        grid-template-rows:0.5fr 0.5fr 0.5fr 0.5fr;
+    }
+
+    .about_container{
+        min-width: fit-content;
+        padding-left: 1%;
+    }
+
+    .about {
+        align-self: flex-start;
+        font-size: 2rem;
+    }
+    
+    .description {
+        align-self: flex-start;
+        font-size: 1rem;
+    }
+  }
+
+
+  @media screen and (max-width: 300px) {
+    .arrow {
+        width: 15%;
+    }
+
+    .form {
+        display: block;
+        min-width: 180px;
+        margin-left: 10px;
+    }
+
+    svg {
+        width: 50%;
+    }
+
+    input[type=text], select, textarea {
+        font-size: 1rem;
+    }
+    
+    input[type=submit] {
+        font-size: 1rem;
+    }
+
+    .text {
+        min-width: 100px;
+    }
+
+    .start {
+        font-size: 2rem;
+    } 
+
+    .container {
+        grid-template-rows:0.5fr 0.5fr 0.5fr 0.5fr;
+    }
+
+    .about_container{
+        min-width: fit-content;
+        padding-left: 1%;
+    }
+
+    .about {
+        align-self: flex-start;
+        font-size: 2rem;
+    }
+    
+    .description {
+        align-self: flex-start;
+        font-size: 1rem;
+    }
+    
+  }
