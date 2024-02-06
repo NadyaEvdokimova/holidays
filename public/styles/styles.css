@@ -276,6 +276,7 @@ span {
     }
 
     .about_container{
+        width: 300px;
         min-width: fit-content;
         padding-left: 1%;
     }
